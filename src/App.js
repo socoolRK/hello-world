@@ -33,8 +33,8 @@ function App() {
   return (
     <div className="App">
       <ClickCounter />
-      {/* <HoverCounter /> */}
-      <ErrorBoundary>
+      <HoverCounter />
+      {/* <ErrorBoundary>
       <Hero heroName='Batman' />
       </ErrorBoundary>
 
@@ -44,7 +44,7 @@ function App() {
       
       <ErrorBoundary>
       <Hero heroName='Joker' />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
       {/* '<PortalDemo /> */}
       {/* <FRParentInput /> */}
       {/* <FocusInput /> */}
