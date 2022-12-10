@@ -10,7 +10,7 @@ class ErrorBoundary extends Component {
         }
     }
 
-    static getDerivedStatefromError(error) {
+    static getDerivedStateFromError(error) {
         return {
             hasError: true
         }
